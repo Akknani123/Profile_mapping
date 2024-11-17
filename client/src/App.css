@@ -1,0 +1,23 @@
+/* App.css */
+body {
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.container-fluid {
+  margin-top: 60px; /* To make space for the fixed navbar */
+}
+
+.profile-container {
+  max-width: 300px;
+}
+
+.map-container {
+  margin-top: 20px;
+}

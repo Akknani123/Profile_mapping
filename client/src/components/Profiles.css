@@ -1,0 +1,48 @@
+.profiles-section {
+  background-color: #f7f7f7; /* Light background color */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-top: 80px;
+  
+}
+
+.profiles-container {
+  padding: 20px;
+  max-height: 500px; /* Limiting the height of the profile section */
+  overflow-y: hidden; /* Initially hiding scroll */
+  transition: max-height 0.3s ease; /* Transition for smooth height adjustment */
+}
+
+.profiles-section:hover .profiles-container {
+  overflow-y: auto; /* Show scroll only when hovered */
+  max-height: 600px; /* Increase the max-height when hovered */
+  background-color: #181a1c;
+}
+
+.profile-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-img {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}

@@ -1,0 +1,13 @@
+.map-content {
+    height: calc(100vh - 60px); /* Adjusting height based on the navbar height */
+    width: 100%;
+    padding-top: 10px; /* Optional: Adjust the padding to give some gap */
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+  .map-container {
+    height: 100%;
+    width: 100%;
+  }
+  

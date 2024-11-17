@@ -1,0 +1,14 @@
+/* Aligns the search bar in the center */
+.navbar {
+    background-color: #343a40 !important; /* Darker shade for the navbar */
+  }
+  
+  .form-control {
+    border-radius: 20px;
+  }
+  
+  .navbar-brand span {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
